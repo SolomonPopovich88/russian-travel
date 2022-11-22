@@ -1,0 +1,28 @@
+.places-grid__paragraph {
+  grid-area: paragraph;
+  font-size: 18px;
+  max-width: 480px;
+    line-height: 30px;
+    margin: 0;
+    width: 100%;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    padding-bottom: 24px;
+    }
+
+    @media screen and (max-width: 768px) {
+            .places-grid__paragraph{
+              max-width: 352px;
+              font-size: 16px;
+              line-height: 26px;
+            }
+      
+        } 
+        @media screen and (max-width: 640px) {
+          .places-grid__paragraph {
+          padding: 0 16px 0;
+          max-width: 100%;
+          box-sizing: border-box;
+          }
+          }
+    
+

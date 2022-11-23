@@ -1,41 +1,12 @@
-@import url(./__caption/lead__caption.css);
-@import url(./__image/lead__image.css);
-@import url(./__title/lead__title.css);
-@import url(./__subtitle/lead__subtitle.css);
 .lead {
-    max-width: 984px;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0 auto;
-    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-    }
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 56px;
+}
 
-    @media screen and (max-width: 1024px) {
-       .lead{
-        max-width: 928px;
-       }
-    }
-
-    @media screen and (max-width: 768px) {
-        .lead{
-         max-width: 768px;
-        }
-     }
-     @media screen and (max-width: 680px) {
-      .lead{
-       max-width: 685px;
-      }
-   }
-
-     @media screen and (max-width: 480px) {
-      .lead{
-       max-width: 480px;
-      }
-   }
-
-
-     @media screen and (max-width: 320px) {
-        .lead{
-         max-width: 320px;
-        }
-     }
+@media screen and (max-width: 1279px) {
+  .lead {
+    padding-top: 48px;
+  }
+}

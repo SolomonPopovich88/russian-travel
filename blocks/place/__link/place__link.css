@@ -1,19 +1,14 @@
 .place__link {
   margin: 0;
-  padding: 0;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
   color: #fff;
-  margin-bottom: 48px;
-  display: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  transition-duration: 0.5s;
 }
 
-@media screen and (min-width: 768px) {
-  .place__link {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
-    margin-bottom: 0;
-    display: block;
-  }
+.place__link:hover {
+  opacity: 0.8;
 }

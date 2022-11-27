@@ -1,25 +1,32 @@
-.intro {
-  margin: 0 auto;
-  padding: 92px 48px 0;
-  max-width: 984px;
-}
+.intro {  
+    max-width: 690px;
+    width: 100%;
+    padding-top: 92px;
+    padding-left: 99px;
 
-@media screen and (max-width: 1279px) {
-  .intro {
-    max-width: 928px;
-  }
-}
+    }
 
-@media screen and (max-width: 1023px) {
-  .intro {
-    padding: 88px 24px 0;
-    max-width: 720px;
-  }
-}
+    @media screen and (max-width: 1024px){
+        .intro{
+          padding-top: 88px;
+          padding-left: 45px;
+          box-sizing: content-box;
+        }
+    }
 
-@media screen and (max-width: 685px) {
-  .intro {
-    padding: 64px 16px 0;
-    max-width: 288px;
-  }
-}
+    @media screen and (max-width: 768px){
+        .intro{
+          max-width: 720px;
+          padding-left: 24px;
+          padding-right: 24px;
+          box-sizing: border-box;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .intro {
+        max-width: 288px;
+        padding: 64px 16px 0;
+        }
+    }
+    

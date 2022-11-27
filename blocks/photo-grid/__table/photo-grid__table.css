@@ -22,8 +22,8 @@
       
       @media screen and (max-width: 641px) {
         .photo-grid__table{
-            max-width: 640px; 
-            grid-gap: 12px;    
+            max-width: 640px;
+            grid-gap: 12px;
       } 
       }
 

@@ -12,7 +12,6 @@
   src: url("./inter-700.woff") format("woff");
   src: url("./inter-700.woff") format("woff2");
   font-weight: 700;
-  font-style: bold;
 }
 
 @font-face {

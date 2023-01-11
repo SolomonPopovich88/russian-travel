@@ -3,7 +3,6 @@
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
-    margin-bottom: 92px;
     padding-top: 92px;
   }
 
@@ -32,6 +31,6 @@
     .photo-grid {
       max-width: 288px;
       padding: 64px 0 0;
-
+      margin-bottom: 64px;
   } 
   }
